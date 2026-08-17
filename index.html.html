@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultorio Odontológico Vicerly Vargas | Los Teques, Miranda</title>
-    <meta name="description" content="Consultorio Odontológico Vicerly Vargas en Los Teques, Edo. Miranda. Especialistas en Cirugía Maxilofacial, Ortodoncia, Endodoncia, Estética Dental, Prótesis, Odontopediatría y más. C.C Vasconia, Piso 1 Local L-334. Tel: 0414-4694583.">
-    <meta name="keywords" content="dentista Los Teques, odontólogo Miranda, cirugía maxilofacial, ortodoncia, endodoncia, blanqueamiento dental, carillas, prótesis dentales, odontopediatría, odontología general, Vicerly Vargas, C.C Vasconia, consultorio dental Los Teques">
+    <title>Odontólogo en Los Teques | Consultorio Vicerly Vargas - Miranda</title>
+    <meta name="description" content="Odontólogo en Los Teques, Miranda. Especialistas en Cirugía Maxilofacial, Ortodoncia, Endodoncia, Estética Dental, Prótesis y Odontopediatría. C.C Vasconia, Piso 1 Local L-334. ¡Agenda tu cita!">
+    <meta name="keywords" content="odontólogo Los Teques, dentista Miranda, cirugía maxilofacial Los Teques, ortodoncia estética, endodoncia, blanqueamiento dental, carillas dentales, prótesis dentales, odontopediatría, odontología general, Vicerly Vargas, C.C Vasconia, consultorio dental Los Teques, mejor dentista en Los Teques">
     <meta name="author" content="Consultorio Odontológico Vicerly Vargas">
     <meta name="robots" content="index, follow">
     <meta name="geo.region" content="VE-M">
@@ -13,9 +13,10 @@
     <meta name="geo.position" content="10.353374;-67.032114">
     <meta name="ICBM" content="10.353374, -67.032114">
 
+    <!-- Open Graph (Redes Sociales) -->
     <meta property="og:type" content="business.business">
-    <meta property="og:title" content="Consultorio Odontológico Vicerly Vargas - Los Teques, Miranda">
-    <meta property="og:description" content="Especialistas en Cirugía Maxilofacial, Ortodoncia, Endodoncia, Estética Dental y más. C.C Vasconia, Piso 1 Local L-334.">
+    <meta property="og:title" content="Odontólogo en Los Teques | Consultorio Vicerly Vargas">
+    <meta property="og:description" content="Especialistas en Cirugía Maxilofacial, Ortodoncia, Endodoncia y Estética Dental en Los Teques, Miranda. C.C Vasconia, Piso 1 Local L-334.">
     <meta property="og:url" content="https://odvargas.com">
     <meta property="og:image" content="https://odvargas.com/logo-og.jpg">
     <meta property="og:locale" content="es_VE">
@@ -27,7 +28,7 @@
     <meta property="business:contact_data:email" content="pacientes@odvargas.com">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Consultorio Odontológico Vicerly Vargas">
+    <meta name="twitter:title" content="Odontólogo en Los Teques | Vicerly Vargas">
     <meta name="twitter:description" content="Tu sonrisa en las mejores manos. Cirugía Maxilofacial, Ortodoncia, Endodoncia y más en Los Teques.">
     <meta name="twitter:image" content="https://odvargas.com/logo-og.jpg">
 
@@ -348,13 +349,14 @@
             padding: 0.65rem 1.5rem;
             border-radius: 50px;
             font-weight: 600;
-            font-size: 0.82rem;
+            font-size: 0.85rem;
             text-decoration: none;
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
             gap: 0.5rem;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            white-space: nowrap;
         }
         .nav-cta:hover {
             transform: translateY(-2px);
@@ -424,6 +426,7 @@
             z-index: 1;
         }
 
+        /* SEO Optimizado: H1 con palabra clave principal */
         .hero-content h1 {
             font-size: clamp(2.8rem, 5.5vw, 4.5rem);
             color: var(--white);
@@ -495,6 +498,26 @@
         .btn-outline:hover {
             background: rgba(255,255,255,0.1);
             border-color: var(--white);
+        }
+        
+        /* Botón pequeño para número en Hero */
+        .btn-call-outline {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.08);
+            color: var(--white);
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: all 0.3s ease;
+        }
+        .btn-call-outline:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
         }
 
         .hero-image {
@@ -1278,6 +1301,21 @@
                 bottom: 1rem;
                 right: 1rem;
             }
+            
+            /* Botón de llamada alternativo en móviles */
+            .mobile-call-btn {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.5rem;
+                background: var(--accent);
+                color: var(--white);
+                padding: 0.8rem 2rem;
+                border-radius: 50px;
+                text-decoration: none;
+                font-weight: 600;
+                margin-top: 1rem;
+                box-shadow: 0 4px 15px rgba(201,162,39,0.3);
+            }
         }
 
         ::-webkit-scrollbar { width: 8px; }
@@ -1312,7 +1350,7 @@
                     <a href="https://www.instagram.com/odontologiavv" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.tiktok.com/@consultorio.vicer" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
                 </li>
-                <li><a href="tel:+584144694583" class="nav-cta"><i class="fas fa-phone"></i> 0414-4694583</a></li>
+                <li><a href="tel:+584144694583" class="nav-cta"><i class="fas fa-phone"></i> Agendar Cita</a></li>
             </ul>
             <button class="hamburger" id="hamburger" aria-label="Abrir menú">
                 <span></span>
@@ -1328,19 +1366,20 @@
         <div class="hero-blob hero-blob-2"></div>
         <div class="hero-container">
             <div class="hero-content">
-                <h1>Tu sonrisa, nuestra <em>obra de arte</em></h1>
+                <!-- H1 OPTIMIZADO PARA SEO -->
+                <h1>Odontólogo en Los Teques: Tu sonrisa, nuestra <em>obra de arte</em></h1>
                 <p>En el Consultorio Odontológico Vicerly Vargas combinamos excelencia médica, tecnología de vanguardia y un trato humano excepcional para devolverte la confianza de sonreír.</p>
                 <div class="hero-buttons">
                     <a href="https://wa.me/584144694583" target="_blank" rel="noopener noreferrer" class="btn-primary">
                         <i class="fab fa-whatsapp"></i> Agendar Cita
                     </a>
-                    <a href="#servicios" class="btn-outline">
-                        <i class="fas fa-teeth"></i> Ver Servicios
+                    <a href="tel:+584144694583" class="btn-call-outline">
+                        <i class="fas fa-phone"></i> 0414-4694583
                     </a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="./vicerly-vargas.jpeg" alt="Dra. Vicerly Vargas en su consultorio odontológico en Los Teques" loading="eager">
+                <img src="./vicerly-vargas.jpeg" alt="Dra. Vicerly Vargas, odontóloga en Los Teques, en su consultorio" loading="eager" title="Especialista en Ortodoncia y Estética Vicerly Vargas">
                 <div class="hero-badge">
                     <div class="hero-badge-icon"><i class="fas fa-award"></i></div>
                     <div class="hero-badge-text">
@@ -1401,7 +1440,7 @@
     <section class="section services-section" id="servicios">
         <div class="section-header animate-on-scroll">
             <span class="section-label">Nuestros Servicios</span>
-            <h2 class="section-title">Todos los Servicios Odontológicos</h2>
+            <h2 class="section-title">Tratamientos Odontológicos Especializados</h2>
             <p class="section-subtitle">Ofrecemos una amplia gama de tratamientos especializados para toda la familia en un solo lugar.</p>
         </div>
         <div class="services-grid">
@@ -1526,7 +1565,7 @@
             <div class="team-card animate-on-scroll delay-1">
                 <div class="team-badge"><i class="fas fa-star"></i></div>
                 <div class="team-img-wrap">
-                    <img src="./vicerly-vargas-1.jpg" alt="Dra. Vicerly Vargas - Ortodoncia y Estética" loading="lazy">
+                    <img src="./vicerly-vargas-1.jpg" alt="Dra. Vicerly Vargas - Ortodoncia y Estética" loading="lazy" title="Especialista en Ortodoncia en Los Teques">
                     <div class="team-img-overlay">
                         <div class="team-social">
                             <a href="https://wa.me/584144694583" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -1544,7 +1583,7 @@
             <div class="team-card animate-on-scroll delay-2">
                 <div class="team-badge"><i class="fas fa-star"></i></div>
                 <div class="team-img-wrap">
-                    <img src="./katherin.jpg" alt="Dra. Katherin Viscaya - Odontología General" loading="lazy">
+                    <img src="./katherin.jpg" alt="Dra. Katherin Viscaya - Odontología General" loading="lazy" title="Especialista en Odontología General en Los Teques">
                     <div class="team-img-overlay">
                         <div class="team-social">
                             <a href="https://wa.me/584144694583" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -1562,7 +1601,7 @@
             <div class="team-card animate-on-scroll delay-3">
                 <div class="team-badge"><i class="fas fa-star"></i></div>
                 <div class="team-img-wrap">
-                    <img src="./mailiu%20(1).jpg" alt="Dra. Maylui Belisario - Cirujano Maxilofacial" loading="lazy">
+                    <img src="./mailiu%20(1).jpg" alt="Dra. Maylui Belisario - Cirujano Maxilofacial" loading="lazy" title="Especialista en Cirugía Maxilofacial en Los Teques">
                     <div class="team-img-overlay">
                         <div class="team-social">
                             <a href="https://wa.me/584144694583" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -1584,8 +1623,8 @@
     <section class="section" id="nosotros">
         <div class="about-grid">
             <div class="about-images animate-on-scroll">
-                <img src="./vicerly-vargas.jpeg" alt="Dra. Vicerly Vargas en su consultorio odontológico" class="about-img-main" loading="lazy">
-                <img src="./mailiu%20(1).jpg" alt="Atención dental personalizada" class="about-img-accent" loading="lazy">
+                <img src="./vicerly-vargas.jpeg" alt="Consultorio Odontológico Vicerly Vargas en Los Teques" class="about-img-main" loading="lazy" title="Clínica dental en Los Teques, Miranda">
+                <img src="./mailiu%20(1).jpg" alt="Atención dental personalizada en Los Teques" class="about-img-accent" loading="lazy">
             </div>
             <div class="about-content animate-on-scroll delay-2">
                 <span class="section-label">Sobre Nosotros</span>
