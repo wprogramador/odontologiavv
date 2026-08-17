@@ -13,13 +13,18 @@
     <meta name="geo.position" content="10.353374;-67.032114">
     <meta name="ICBM" content="10.353374, -67.032114">
 
-    <!-- Open Graph (Redes Sociales) -->
+    <!-- Open Graph (WhatsApp / Facebook / Redes Sociales) -->
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="Odontólogo en Los Teques | Consultorio Vicerly Vargas">
     <meta property="og:description" content="Especialistas en Cirugía Maxilofacial, Ortodoncia, Endodoncia y Estética Dental en Los Teques, Miranda. C.C Vasconia, Piso 1 Local L-334.">
     <meta property="og:url" content="https://odvargas.com">
-    <meta property="og:image" content="https://odvargas.com/logo-og.jpg">
+    <meta property="og:site_name" content="Consultorio Odontológico Vicerly Vargas">
     <meta property="og:locale" content="es_VE">
+    <meta property="og:image" content="https://odvargas.com/logo-og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="Logo del Consultorio Odontológico Vicerly Vargas en Los Teques">
     <meta property="business:contact_data:street_address" content="C.C Vasconia, Piso 1 Local L-334">
     <meta property="business:contact_data:locality" content="Los Teques">
     <meta property="business:contact_data:region" content="Miranda">
@@ -27,10 +32,12 @@
     <meta property="business:contact_data:phone_number" content="+584144694583">
     <meta property="business:contact_data:email" content="pacientes@odvargas.com">
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Odontólogo en Los Teques | Vicerly Vargas">
     <meta name="twitter:description" content="Tu sonrisa en las mejores manos. Cirugía Maxilofacial, Ortodoncia, Endodoncia y más en Los Teques.">
     <meta name="twitter:image" content="https://odvargas.com/logo-og.jpg">
+    <meta name="twitter:image:alt" content="Logo del Consultorio Odontológico Vicerly Vargas">
 
     <link rel="canonical" href="https://odvargas.com/">
 
@@ -426,7 +433,6 @@
             z-index: 1;
         }
 
-        /* SEO Optimizado: H1 con palabra clave principal */
         .hero-content h1 {
             font-size: clamp(2.8rem, 5.5vw, 4.5rem);
             color: var(--white);
@@ -499,8 +505,7 @@
             background: rgba(255,255,255,0.1);
             border-color: var(--white);
         }
-        
-        /* Botón pequeño para número en Hero */
+
         .btn-call-outline {
             display: inline-flex;
             align-items: center;
@@ -707,7 +712,7 @@
             line-height: 1.7;
         }
 
-        /* ========== SERVICES - DISEÑO MEJORADO CON FOTOS WEBP ========== */
+        /* ========== SERVICES ========== */
         .services-section { background: linear-gradient(180deg, var(--secondary) 0%, var(--white) 100%); }
         .services-grid {
             display: grid;
@@ -732,8 +737,7 @@
             box-shadow: 0 30px 60px -12px rgba(30,58,95,0.18);
             border-color: var(--accent-light);
         }
-        
-        /* IMÁGENES DE FONDO CON TUS ARCHIVOS WEBP */
+
         .service-img-wrap {
             height: 240px;
             position: relative;
@@ -746,8 +750,7 @@
             align-items: flex-end;
             padding: 1.5rem;
         }
-        
-        /* DEGRADADO OSCURO PARA TEXTO LEGIBLE */
+
         .service-img-wrap::after {
             content: '';
             position: absolute;
@@ -755,11 +758,11 @@
             background: linear-gradient(to top, rgba(21,42,69,0.85) 0%, transparent 50%);
             z-index: 1;
         }
-        
+
         .service-card:hover .service-img-wrap {
             transform: scale(1.05); 
         }
-        
+
         .service-number {
             position: relative;
             z-index: 2;
@@ -1301,8 +1304,7 @@
                 bottom: 1rem;
                 right: 1rem;
             }
-            
-            /* Botón de llamada alternativo en móviles */
+
             .mobile-call-btn {
                 display: inline-flex;
                 align-items: center;
@@ -1366,7 +1368,6 @@
         <div class="hero-blob hero-blob-2"></div>
         <div class="hero-container">
             <div class="hero-content">
-                <!-- H1 OPTIMIZADO PARA SEO -->
                 <h1>Odontólogo en Los Teques: Tu sonrisa, nuestra <em>obra de arte</em></h1>
                 <p>En el Consultorio Odontológico Vicerly Vargas combinamos excelencia médica, tecnología de vanguardia y un trato humano excepcional para devolverte la confianza de sonreír.</p>
                 <div class="hero-buttons">
@@ -1436,7 +1437,7 @@
         </div>
     </section>
 
-    <!-- Services (Nombres de archivo 100% compatibles con tu captura) -->
+    <!-- Services -->
     <section class="section services-section" id="servicios">
         <div class="section-header animate-on-scroll">
             <span class="section-label">Nuestros Servicios</span>
@@ -1444,7 +1445,6 @@
             <p class="section-subtitle">Ofrecemos una amplia gama de tratamientos especializados para toda la familia en un solo lugar.</p>
         </div>
         <div class="services-grid">
-            <!-- 1. Cirugía Maxilofacial -->
             <div class="service-card animate-on-scroll delay-1">
                 <div class="service-img-wrap" style="background-image: url('cirugia.webp');">
                     <span class="service-number">01</span>
@@ -1456,7 +1456,6 @@
                 </div>
             </div>
 
-            <!-- 2. Ortodoncia Estética -->
             <div class="service-card animate-on-scroll delay-2">
                 <div class="service-img-wrap" style="background-image: url('ortodoncia.webp');">
                     <span class="service-number">02</span>
@@ -1468,7 +1467,6 @@
                 </div>
             </div>
 
-            <!-- 3. Carillas Dentales -->
             <div class="service-card animate-on-scroll delay-3">
                 <div class="service-img-wrap" style="background-image: url('carillas.webp');">
                     <span class="service-number">03</span>
@@ -1480,7 +1478,6 @@
                 </div>
             </div>
 
-            <!-- 4. Aclaramiento (Blanqueamiento) Dental -->
             <div class="service-card animate-on-scroll delay-1">
                 <div class="service-img-wrap" style="background-image: url('aclaramiento.webp');">
                     <span class="service-number">04</span>
@@ -1492,7 +1489,6 @@
                 </div>
             </div>
 
-            <!-- 5. Endodoncia -->
             <div class="service-card animate-on-scroll delay-2">
                 <div class="service-img-wrap" style="background-image: url('endodoncia.webp');">
                     <span class="service-number">05</span>
@@ -1504,7 +1500,6 @@
                 </div>
             </div>
 
-            <!-- 6. Prótesis Dentales -->
             <div class="service-card animate-on-scroll delay-3">
                 <div class="service-img-wrap" style="background-image: url('protesis.webp');">
                     <span class="service-number">06</span>
@@ -1516,7 +1511,6 @@
                 </div>
             </div>
 
-            <!-- 7. Odontología General -->
             <div class="service-card animate-on-scroll delay-1">
                 <div class="service-img-wrap" style="background-image: url('od-general.webp');">
                     <span class="service-number">07</span>
@@ -1528,7 +1522,6 @@
                 </div>
             </div>
 
-            <!-- 8. Radiología Digital -->
             <div class="service-card animate-on-scroll delay-2">
                 <div class="service-img-wrap" style="background-image: url('rx.webp');">
                     <span class="service-number">08</span>
@@ -1540,7 +1533,6 @@
                 </div>
             </div>
 
-            <!-- 9. Odontopediatría -->
             <div class="service-card animate-on-scroll delay-3">
                 <div class="service-img-wrap" style="background-image: url('odontopediatria.webp');">
                     <span class="service-number">09</span>
